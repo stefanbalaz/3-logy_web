@@ -1,0 +1,103 @@
+body {
+  background-color: #f5f5f5;
+  /*   overflow: auto; */
+}
+
+/* Reset margin and padding globally */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  color: rgb(91, 91, 91);
+}
+
+.container {
+  padding: 0;
+  /*  margin: 0; */
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Define fonts */
+
+body {
+  font-family: "CervoNeue", Arial, Helvetica, sans-serif;
+}
+
+.cervo-neue-thin {
+  font-family: "CervoNeue", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.cervo-neue-medium {
+  font-family: "CervoNeue", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.cervo-neue-regular {
+  font-family: "CervoNeue", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.cervo-neue-bold {
+  font-family: "CervoNeue", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Define default font sizes */
+
+.headline-1 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.text-1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.cookie-container {
+  font-size: 1.25rem;
+}
+
+/* Media queries for small devices */
+
+@media (min-width: 576px) {
+  .headline-1 {
+    font-size: 2.5rem;
+  }
+  .text-1 {
+    font-size: 1.5rem;
+  }
+  .cookie-container {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media queries for medium devices */
+
+@media (min-width: 768px) {
+  .headline-1 {
+    font-size: 3rem;
+  }
+  .text-1 {
+    font-size: 1.75rem;
+  }
+  .cookie-container {
+    font-size: 1.75rem;
+  }
+}
+
+/* Media queries for large devices */
+
+@media (min-width: 992px) {
+  .headline-1 {
+    font-size: 3.5rem;
+  }
+  .text-1 {
+    font-size: 2rem;
+  }
+  .cookie-container {
+    font-size: 2rem;
+  }
+}
